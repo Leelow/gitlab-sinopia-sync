@@ -19,6 +19,7 @@ COPY files/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 # Add gitlab assets (https://gitlab.com/gitlab-org/omnibus-gitlab/tree/master/docker/assets)
 COPY files/assets/wrapper /usr/local/bin/
+RUN chmod +x /usr/local/bin/wrapper
 
 # Install sinopia forked from https://github.com/Leelow/sinopia
 WORKDIR /var/opt
