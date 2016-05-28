@@ -1,0 +1,11 @@
+{
+  "name": "configurator",
+  "version": "0.1.0",
+  "description": "A configurator for gitlab-webhook-publish",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
